@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family:'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+$black: #1E212C;
+$primary:  linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+$peach: #FDDBD2;
+$oren: #FF3F3A;
+
+
+
+
+@mixin text($fw, $fz, $lh, $col) {
+  @if $fw == 900,700 {
+    font-weight: $fw;
+  }
+  font-size: $fz;
+  @if $lh > 0 {
+    line-height: $lh;
+  }
+  color: $col;
+}
+img{
+  width: 100%;
+}
+
+.container{
+  max-width: 1230px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main{
+  background:  #E5E5E5;
+  position: relative;
+}
+
+@import "header";
+@import "home";
+@import "quetion";
+@import "employees";
+@import "ourBenefits";
+@import "ourEvents";
+@import "certificate";
+@import "meet";
+@import "testimonials";
+@import "ourBlog";
+@import "subscribe";
+@import "footer";

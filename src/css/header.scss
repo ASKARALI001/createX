@@ -1,0 +1,76 @@
+.header {
+  background: #FDDBD2;
+  padding: 20px 0;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+
+    &-item {
+      @include text(700, 16px, 160%, #424551);
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+
+      &::before {
+        content: "";
+        width: 0;
+        height: 2px;
+        background: $primary;
+        position: absolute;
+        bottom: -3px;
+        left: -15px;
+        -webkit-transition: 0.7s;
+        transition: 0.7s;
+      }
+
+      &:hover::before {
+        width: calc(100% + 30px);
+
+      }
+    }
+  }
+
+
+  &__block {
+    display: flex;
+    align-items: center;
+    column-gap: 37px;
+
+    &-row {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &-desc {
+        @include text(700, 16px, 160%, #424551);
+
+      }
+    }
+  }
+
+  &__btn {
+    padding: 10px 40px;
+    @include text(700, 16px, 160%, #fff);
+    background: $primary;
+    border-radius: 4px;
+    border: 1px solid $oren;
+    cursor: pointer;
+    transition: .7s;
+    &:hover{
+      background: #ffffff;
+      border: 1px solid $oren;
+      color: $oren;
+      transition: .7s;
+    }
+  }
+
+
+}

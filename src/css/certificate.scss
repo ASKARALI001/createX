@@ -1,0 +1,35 @@
+.certificate{
+  padding: 120px 0 96px;
+  background: #ffffff;
+  &__block{
+    display: flex;
+    align-items: center;
+    column-gap: 135px;
+    position: relative;
+  }
+  &__info{
+    width: calc(30% - 77.5px);
+    &-desc{
+      @include text(700, 16px, 150%, $black);
+      margin-bottom: 10px;
+
+    }
+    &-title{
+      @include text(900, 46px, 160%, $black);
+    }
+    &-text{
+      @include text(400, 16px, 150%,  #424551);
+      margin: 48px 0 25px;
+    }
+    &-svg{
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+  &__images{
+    position: absolute;
+    left: 30%;
+    top: 0;
+  }
+}

@@ -1,0 +1,98 @@
+.ourEvents{
+  background: $peach;
+  padding:80px 0;
+  &__desc{
+    @include text(700, 16px, 150%, $black);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__title{
+    @include text(900, 46px, 160%, $black);
+    text-align: center;
+    margin: 10px 0 60px;
+  }
+  &__block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  &__card{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 40px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+    &:hover{
+      border: 1px solid $peach;
+      box-shadow: 0px 80px 80px -20px rgba(255, 63, 58, 0.16), 0px 30px 24px -10px rgba(255, 63, 58, 0.1), 0px 12px 10px -6px rgba(255, 63, 58, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+      border-radius: 4px;
+      transition: .2s;
+      transform: scale(1.02);
+    }
+
+    &-span{
+      @include text(900, 48px ,130%, $oren);
+    }
+    &-block{
+      display: flex;
+      column-gap: 40px;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+    &-months{
+      &-mon{
+        @include text(700, 20px, 150%, $black);
+
+      }
+      &-time{
+        @include text(400, 16px, 160%, #787A80);
+      }
+    }
+    &-texts{
+    }
+    &-btn{
+      padding: 10px 32px;
+      background: #ffffff;
+      border: 1px solid $oren;
+      @include text(700, 14px, 150%, $oren);
+      border-radius: 4px;
+      cursor: pointer;
+      transition: .2s;
+      &:hover{
+        background: $primary;
+        color: white;
+        transition: .2s;
+      }
+    }
+
+  }
+  &__question{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin-top: 60px;
+    &-subtitle{
+      @include text(700, 24px, 150%, $black);
+
+    }
+    &-btn{
+      @include text(700, 16px, 150%, #fff);
+      text-align: center;
+      border: 1px solid $oren;
+      background: $primary;
+      padding: 10px 40px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: .2s;
+      &:hover{
+        border: 1px solid #787A80;
+        transition: .2s;
+        transform: scale(1.02);
+      }
+    }
+  }
+}

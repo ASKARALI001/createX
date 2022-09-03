@@ -1,0 +1,59 @@
+.home{
+  padding: 110px 0 80px;
+  background: url("../image/background.jpg") center/cover, no-repeat;
+  &__block{
+    display: flex;
+    justify-content: space-between
+  }
+  &__card{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    &-icons{
+      display: flex;
+      align-items: center;
+      &-desc{
+        @include text(700, 14px, 150%, $black);
+
+      }
+    }
+    &-title{
+      @include text(900, 64px,130%, $black);
+      margin: 40px 0 20px;
+
+
+    }
+    &-btns{
+      display: flex;
+      column-gap: 24px;
+
+    }
+    &-btn{
+      padding: 10px 40px;
+      @include text(700, 16px, 150%, #FF3F3A);
+      background: #FDDBD2;
+      border-radius: 4px;
+      border: 1px solid #FF3F3A;
+      transition: .2s;
+      cursor: pointer;
+      &:hover{
+        background: $primary;
+        transition: .2s;
+        color: #ffffff;
+      }
+    }
+  }
+  &__list{
+    display: flex;
+    column-gap: 68px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    &-item{
+      @include text(900, 20px,130%, $black);
+
+      position: relative;
+
+    }
+  }
+}

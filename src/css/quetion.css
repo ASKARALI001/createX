@@ -1,0 +1,15 @@
+.question {
+  padding: 180px 0;
+  background: #ffffff;
+}
+.question__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 135px;
+     -moz-column-gap: 135px;
+          column-gap: 135px;
+}
+.question__img {
+  width: calc(65% - 72.5px);
+}

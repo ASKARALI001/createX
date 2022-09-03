@@ -1,0 +1,71 @@
+.meet {
+  padding: 166px 0 180px;
+  background: #F4F5F7;
+
+  &__desc {
+    @include text(700, 16px, 150%, $black);
+
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 80px;
+  }
+
+  &__title {
+    @include text(900, 46px, 130%, $black);
+  }
+
+  &__btns {
+    display: flex;
+    column-gap: 5px;
+
+    &-btn {
+      cursor: pointer;
+      padding-top: 13px;
+      text-align: center;
+      border: 1px solid #F4F5F7;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      transition: .2s;
+      z-index: 5;
+
+      &:hover {
+        background: $oren;
+        transition: .2s;
+        border: 1px solid $oren;
+      }
+
+      &:hover path {
+        fill: white;
+      }
+
+
+    }
+  }
+  &__block{
+    display: flex;
+    column-gap: 30px;
+
+  }
+  &__card{
+    width: calc(25% - 22.5px);
+    text-align: center;
+    &-desc{
+      @include text(400, 16px, 160%, #787A80);
+    }
+    &-image{
+      padding: 20px 20px 0 20px;
+      background: #FFCF2D;
+      border-radius: 4px;
+
+    }
+    &-title{
+      @include text(700, 20px, 150%, #424551);
+      margin: 16px 0 5px;
+    }
+  }
+
+}

@@ -1,0 +1,40 @@
+.question{
+  padding: 180px 0;
+  background: #ffffff;
+  &__content{
+    display: flex;
+    column-gap: 135px;
+  }
+  &__img{
+    width: calc( 65% - 72.5px);
+  }
+  &__block{
+    &-desc{
+      @include text(700, 16px, 150%, $black);
+      text-transform: uppercase;
+    }
+    &-title{
+      @include text(900, 46px, 130%, $black);
+      margin: 16px 0 40px;
+
+    }
+    &-lin{
+      display: flex;
+      column-gap: 16px;
+      margin-top: 12px;
+      &-desc{
+        @include text(400, 16px, 150%, #424551);
+      }
+    }
+    &-btn{
+      @include text(700, 14px, 150%, #ffff);
+      background: $oren;
+      padding: 10px 32px;
+      border-radius: 4px;
+      border: none;
+      margin-top: 48px;
+      cursor: pointer;
+    }
+
+  }
+}

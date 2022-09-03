@@ -1,0 +1,47 @@
+.subscribe{
+  background: $peach;
+  padding: 120px 0 180px;
+  text-align: center;
+  position: relative;
+  &__img-befor{
+    position: absolute;
+    width: 354px;
+    left: 0;
+    bottom: -3px;
+  }
+  &__img-after{
+    position: absolute;
+    width: 354px;
+    right: 0;
+    bottom: -3px;
+  }
+
+  &__desc{
+    @include text(700, 16px, 150%, $black);
+    text-transform: uppercase;
+  }
+  &__title{
+    @include text(900, 46px, 130%, $black);
+    margin: 8px 0 60px;
+  }
+  &__form{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__input{
+    width: 422px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #D7DADD;
+    padding-left: 16px;
+  }
+  &__btn{
+    @include text(700, 14px, 150%, #fff);
+    background: $primary;
+    padding: 12px 40px;
+    border: 1px solid $oren;
+    border-radius: 4px;
+  }
+}

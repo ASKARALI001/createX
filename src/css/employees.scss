@@ -1,0 +1,95 @@
+.employees{
+  background: #ffffff;
+  padding-bottom: 180px;
+  &__desc{
+    text-transform: uppercase;
+    @include text(700, 16px, 150%, $black);
+  }
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 60px;
+    &-title{
+      @include text(900, 46px, 130%, $black);
+    }
+    &-btn{
+      @include text(700, 16px, 150%, $oren);
+      padding: 10px 40px;
+      border: 1px solid $oren;
+      border-radius: 4px;
+      background: #ffffff;
+      transition: .2s;
+      cursor: pointer;
+      &:hover{
+        background: $primary;
+        transition: .2s;
+        color: #ffffff;
+      }
+    }
+  }
+  &__bottom{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+
+  }
+  &__card{
+    width: calc(50% - 15px);
+    display: flex;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+    &:hover{
+      box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+      border-radius: 4px;
+      transform: scale(1.02);
+      transition: .2s;
+    }
+    &-box{
+      display: flex;
+      padding: 32px;
+      flex-wrap: wrap;
+      row-gap: 20px;
+      &-btn{
+        @include text(400, 15px, 150%, #ffff);
+        background: #03CEA4;
+        border-radius: 4px;
+        padding: 4px 8px;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+        transition: .2s;
+        &:hover{
+          border: 1px solid #787A80;;
+          transition: .2s;
+        }
+      }
+      &-subtitle{
+        @include text(900, 20px, 150%, $black);
+      }
+      &-text{
+        display: flex;
+        column-gap: 8px;
+        &-span{
+          @include text(700, 18px, 150%, $oren);
+        }
+        &-desc{
+          @include text(400, 18px, 150%, #787A80);
+        }
+      }
+    }
+  }
+}
+.employees__hr-recruting{
+  background: #F89828;
+  padding: 2px 8px;
+}
+.employees__management{
+  background: #5A87FC;
+}
+.employees__design{
+  background: #F52F6E;
+  margin-right: 80px;
+  padding: 2px 8px;
+}

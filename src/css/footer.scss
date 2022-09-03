@@ -1,0 +1,25 @@
+.footer{
+  padding-top: 80px;
+  background: #1E212C;
+  &__row{
+    display: flex;
+    column-gap: 80px;
+  }
+  &__logo{
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    &-desc{
+      @include text(400, 12px, 26px, #FFFFFF);
+      margin: 25px 0 41px;
+      opacity: 0.6;
+      letter-spacing: 1px;
+
+    }
+    &-cont{
+      display: flex;
+      column-gap: 20px;
+
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.testimonials{
+  padding-bottom: 135px;
+  background: #F4F5F7;
+  &__desc{
+    @include text(700, 16px, 150%, $black);
+    text-align: center;
+  }
+  &__title{
+    @include text(900, 46px, 130%, $black);
+    margin: 8px 0 60px;
+    text-align: center;
+  }
+  &__comments{
+    &-desc{
+      @include text(400, 20px, 150%, #424551);
+      margin-left: 30px;
+    }
+  }
+  &__block{
+    position: relative;
+    width: calc(80% - 10px);
+    background: #ffffff;
+    display: flex;
+    padding: 64px 105px;
+    margin: 0 auto;
+  }
+  &__avat{
+    display: flex;
+    column-gap: 8px;
+    margin-top: 24px;
+    width: 245px;
+    &-img{
+      width: 45px;
+    }
+    &-sutitle{
+      @include text(700, 16px, 150%, $black);
+    }
+    &-desc{
+      @include text(400, 14px, 150%, #787A80);
+    }
+
+
+  }
+  &__text{
+    display: flex;
+    flex-direction: column;
+  }
+  &__btns-prev{
+    position: absolute;
+    top: 40%;
+    right: -100px;
+  }
+  &__btns-next{
+    position: absolute;
+    top: 40%;
+    left: -100px;
+  }
+}

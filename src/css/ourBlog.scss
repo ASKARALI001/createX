@@ -1,0 +1,85 @@
+.ourBlog{
+  padding: 120px 0 180px;
+  background: #ffffff;
+  &__desc{
+    @include text(700, 16px, 150%, $black);
+    text-transform: uppercase;
+  }
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 60px;
+   &-title{
+     @include text(900, 46px, 100%, $black);
+   }
+    &-btn{
+      background: $oren;
+      padding: 0 40px;
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      @include text(700, 16px, 150%, #fff);
+    }
+  }
+  &__block{
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__card{
+    width: calc(30% - 20px);
+    &-image{
+      position:relative;
+      &-small{
+        width: 85px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+    }
+
+    &-months{
+      display: flex;
+      column-gap: 11px;
+      align-items: center;
+      &-desc{
+        @include text(400, 14px, 150%, #787A80);
+        text-align: center;
+      }
+    }
+    &-subtitle{
+      @include text(700, 20px, 150%, $black);
+      margin: 11px 0 8px;
+    }
+    &-info{
+      @include text(400, 16px, 150%, $black);
+      margin: 8px 0 16px;
+
+
+    }
+    &-links{
+      display: flex;
+      &-a{
+        @include text(700, 14px, 150%, $black);
+        margin-right: 11px;
+        position: relative;
+        &::before {
+        content: "";
+        width: 0;
+        height: 2px;
+        background: $primary;
+        position: absolute;
+        bottom: -2px;
+        left: -15px;
+        -webkit-transition: 0.7s;
+        transition: 0.7s;
+      }
+
+        &:hover::before {
+          width: calc(100% + 30px);
+
+        }
+      }
+    }
+  }
+}
