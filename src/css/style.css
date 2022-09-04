@@ -54,7 +54,6 @@ img {
           align-items: center;
 }
 .header__list-item {
-  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   color: #424551;
@@ -99,14 +98,12 @@ img {
   cursor: pointer;
 }
 .header__block-row-desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   color: #424551;
 }
 .header__btn {
   padding: 10px 40px;
-  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   color: #fff;
@@ -156,13 +153,11 @@ img {
           align-items: center;
 }
 .home__card-icons-desc {
-  font-weight: 700;
   font-size: 14px;
   line-height: 150%;
   color: #1E212C;
 }
 .home__card-title {
-  font-weight: 900;
   font-size: 64px;
   line-height: 130%;
   color: #1E212C;
@@ -178,7 +173,6 @@ img {
 }
 .home__card-btn {
   padding: 10px 40px;
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #FF3F3A;
@@ -211,7 +205,6 @@ img {
   margin-top: 200px;
 }
 .home__list-item {
-  font-weight: 900;
   font-size: 20px;
   line-height: 130%;
   color: #1E212C;
@@ -237,14 +230,12 @@ img {
   width: calc(35% - 77.5px);
 }
 .question__block-desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
   text-transform: uppercase;
 }
 .question__block-title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
@@ -260,13 +251,11 @@ img {
   margin-top: 12px;
 }
 .question__block-lin-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #424551;
 }
 .question__block-btn {
-  font-weight: 700;
   font-size: 14px;
   line-height: 150%;
   color: white;
@@ -293,7 +282,6 @@ img {
 }
 .employees__desc {
   text-transform: uppercase;
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
@@ -308,13 +296,11 @@ img {
   margin: 8px 0 60px;
 }
 .employees__top-title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
 }
 .employees__top-btn {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #FF3F3A;
@@ -373,7 +359,6 @@ img {
   row-gap: 20px;
 }
 .employees__card-box-btn {
-  font-weight: 400;
   font-size: 15px;
   line-height: 150%;
   color: white;
@@ -391,7 +376,6 @@ img {
   transition: 0.2s;
 }
 .employees__card-box-subtitle {
-  font-weight: 900;
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
@@ -405,13 +389,11 @@ img {
           column-gap: 8px;
 }
 .employees__card-box-text-span {
-  font-weight: 700;
   font-size: 18px;
   line-height: 150%;
   color: #FF3F3A;
 }
 .employees__card-box-text-desc {
-  font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #787A80;
@@ -437,7 +419,6 @@ img {
   background: #ffffff;
 }
 .ourBenefits__desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
@@ -445,7 +426,6 @@ img {
   text-align: center;
 }
 .ourBenefits__title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
@@ -466,7 +446,6 @@ img {
           align-items: center;
 }
 .ourBenefits__btns-btn {
-  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   color: #9A9CA5;
@@ -501,14 +480,12 @@ img {
   width: calc(47% - 77.5px);
 }
 .ourBenefits__text-title {
-  font-weight: 900;
   font-size: 32px;
   line-height: 130%;
   color: #1E212C;
   margin-bottom: 24px;
 }
 .ourBenefits__text-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #1E212C;
@@ -522,7 +499,6 @@ img {
   padding: 80px 0;
 }
 .ourEvents__desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
@@ -530,7 +506,6 @@ img {
   text-align: center;
 }
 .ourEvents__title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 160%;
   color: #1E212C;
@@ -573,7 +548,6 @@ img {
           transform: scale(1.02);
 }
 .ourEvents__card-span {
-  font-weight: 900;
   font-size: 48px;
   line-height: 130%;
   color: #FF3F3A;
@@ -593,13 +567,11 @@ img {
           align-items: center;
 }
 .ourEvents__card-months-mon {
-  font-weight: 700;
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
 }
 .ourEvents__card-months-time {
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #787A80;
@@ -608,7 +580,6 @@ img {
   padding: 10px 32px;
   background: #ffffff;
   border: 1px solid #FF3F3A;
-  font-weight: 700;
   font-size: 14px;
   line-height: 150%;
   color: #FF3F3A;
@@ -636,13 +607,11 @@ img {
   margin-top: 60px;
 }
 .ourEvents__question-subtitle {
-  font-weight: 700;
   font-size: 24px;
   line-height: 150%;
   color: #1E212C;
 }
 .ourEvents__question-btn {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
@@ -683,20 +652,17 @@ img {
   width: calc(33% - 77.5px);
 }
 .certificate__info-desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
   margin-bottom: 10px;
 }
 .certificate__info-title {
-  font-weight: 900;
   font-size: 37px;
   line-height: 130%;
   color: #1E212C;
 }
 .certificate__info-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #424551;
@@ -725,7 +691,6 @@ img {
   background: #F4F5F7;
 }
 .meet__desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
@@ -738,9 +703,9 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 8px 0 80px;
+  position: relative;
 }
 .meet__title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
@@ -785,11 +750,10 @@ img {
   z-index: 5;
 }
 .meet__card {
-  width: calc(25% - 22.5px);
+  width: 100%;
   text-align: center;
 }
 .meet__card-desc {
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #787A80;
@@ -839,11 +803,22 @@ img {
   fill: white;
 }
 .meet__card-title {
-  font-weight: 700;
   font-size: 20px;
   line-height: 150%;
   color: #424551;
   margin: 16px 0 5px;
+}
+
+.meet .swiper {
+  width: 100%;
+}
+
+.meet .swiper-button-next::after {
+  display: none;
+}
+
+.meet .swiper-button-prev::after {
+  display: none;
 }
 
 .swiper {
@@ -870,14 +845,12 @@ img {
   background: #F4F5F7;
 }
 .testimonials__desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
   text-align: center;
 }
 .testimonials__title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
@@ -885,7 +858,6 @@ img {
   text-align: center;
 }
 .testimonials__comments-desc {
-  font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   color: #424551;
@@ -915,13 +887,11 @@ img {
   width: 45px;
 }
 .testimonials__avat-sutitle {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
 }
 .testimonials__avat-desc {
-  font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #787A80;
@@ -942,13 +912,12 @@ img {
 .testimonials__btns-prev {
   position: absolute;
   bottom: 40%;
-  right: -100px;
-  z-index: 100;
+  right: 8px;
 }
 .testimonials__btns-next {
   position: absolute;
   bottom: 40%;
-  left: -100px;
+  left: 8px;
 }
 
 .ourBlog {
@@ -956,7 +925,6 @@ img {
   background: #ffffff;
 }
 .ourBlog__desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
@@ -972,7 +940,6 @@ img {
   margin: 8px 0 60px;
 }
 .ourBlog__top-title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 100%;
   color: #1E212C;
@@ -982,7 +949,6 @@ img {
   padding: 0 40px;
   border: 1px solid #ffffff;
   border-radius: 4px;
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
@@ -1035,21 +1001,18 @@ img {
           align-items: center;
 }
 .ourBlog__card-months-desc {
-  font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #787A80;
   text-align: center;
 }
 .ourBlog__card-subtitle {
-  font-weight: 700;
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
   margin: 11px 0 8px;
 }
 .ourBlog__card-info {
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
@@ -1061,7 +1024,6 @@ img {
   display: flex;
 }
 .ourBlog__card-links-a {
-  font-weight: 700;
   font-size: 14px;
   line-height: 150%;
   color: #1E212C;
@@ -1102,14 +1064,12 @@ img {
   bottom: -3px;
 }
 .subscribe__desc {
-  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #1E212C;
   text-transform: uppercase;
 }
 .subscribe__title {
-  font-weight: 900;
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
@@ -1137,7 +1097,6 @@ img {
   padding-left: 16px;
 }
 .subscribe__btn {
-  font-weight: 700;
   font-size: 14px;
   line-height: 150%;
   color: #fff;
@@ -1184,7 +1143,6 @@ img {
           flex-direction: column;
 }
 .footer__logo-desc {
-  font-weight: 400;
   font-size: 12px;
   line-height: 26px;
   color: #FFFFFF;
@@ -1207,7 +1165,6 @@ img {
   width: 90px;
 }
 .footer__menu-title {
-  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   color: white;
@@ -1226,7 +1183,6 @@ img {
   row-gap: 8px;
 }
 .footer__menu-link-info {
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: white;
@@ -1250,7 +1206,6 @@ img {
           flex-direction: column;
 }
 .footer__contacts-title {
-  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   color: white;
@@ -1272,7 +1227,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   margin: 12px 0 8px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: white;
@@ -1288,7 +1242,6 @@ img {
           flex-direction: column;
 }
 .footer__submit-title {
-  font-weight: 700;
   font-size: 16px;
   line-height: 160%;
   color: white;
@@ -1296,7 +1249,6 @@ img {
   letter-spacing: 1px;
 }
 .footer__submit-desc {
-  font-weight: 400;
   font-size: 10px;
   line-height: 150%;
   color: white;
@@ -1320,7 +1272,6 @@ img {
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
-  font-weight: 400;
   font-size: 12px;
   line-height: 150%;
   color: white;
@@ -1349,14 +1300,12 @@ img {
   background: #262a38;
 }
 .footer__bottom-desc {
-  font-weight: 400;
   font-size: 12px;
   line-height: 150%;
   color: white;
   z-index: 2;
 }
 .footer__bottom-info {
-  font-weight: 700;
   font-size: 14px;
   line-height: 150%;
   color: white;

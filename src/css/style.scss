@@ -20,7 +20,7 @@ $oren: #FF3F3A;
 
 
 @mixin text($fw, $fz, $lh, $col) {
-  @if $fw == 900,700 {
+  @if $fw == (900,700) {
     font-weight: $fw;
   }
   font-size: $fz;

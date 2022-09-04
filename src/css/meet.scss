@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     margin: 8px 0 80px;
+    position: relative;
   }
 
   &__title {
@@ -53,7 +54,7 @@
 
   }
   &__card{
-    width: calc(25% - 22.5px);
+    width: 100%;
     text-align: center;
     &-desc{
       @include text(400, 16px, 160%, #787A80);
@@ -105,4 +106,16 @@
     }
   }
 
+}
+
+
+.meet .swiper {
+  width: 100%;
+}
+
+.meet .swiper-button-next::after{
+  display: none;
+}
+.meet .swiper-button-prev::after{
+  display: none;
 }

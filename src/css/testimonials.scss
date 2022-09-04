@@ -76,12 +76,11 @@
   &__btns-prev{
     position: absolute;
     bottom: 40%;
-    right: -100px;
-    z-index: 100;
+    right: 8px;
   }
   &__btns-next{
     position: absolute;
     bottom: 40%;
-    left: -100px;
+    left: 8px;
   }
 }
