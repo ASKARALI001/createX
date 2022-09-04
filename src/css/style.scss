@@ -20,7 +20,7 @@ $oren: #FF3F3A;
 
 
 @mixin text($fw, $fz, $lh, $col) {
-  @if $fw == (900,700) {
+  @if $fw == 900,700 {
     font-weight: $fw;
   }
   font-size: $fz;
@@ -31,6 +31,9 @@ $oren: #FF3F3A;
 }
 img{
   width: 100%;
+}
+.header__link{
+  @include text(700, 16px, 160%, #424551);
 }
 
 .container{
@@ -56,3 +59,4 @@ img{
 @import "ourBlog";
 @import "subscribe";
 @import "footer";
+@import "courses";
