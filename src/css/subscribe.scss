@@ -43,5 +43,13 @@
     padding: 12px 40px;
     border: 1px solid $oren;
     border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+    &:hover{
+      background: #FFFFFF;
+      border: 1px solid $oren;
+      color: $oren;
+      transition: .2s;
+    }
   }
 }

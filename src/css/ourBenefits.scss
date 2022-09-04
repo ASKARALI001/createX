@@ -42,7 +42,7 @@
   }
 
   &__text{
-    width: calc(40% - 72.5px);
+    width: calc(47% - 77.5px);
     &-title{
       @include text(900, 32px, 130%, $black);
       margin-bottom: 24px;
@@ -50,5 +50,8 @@
     &-desc{
       @include text(400, 16px, 160%, $black);
     }
+  }
+  &__image{
+    width: calc(63% - 77.5px);
   }
 }

@@ -18,6 +18,14 @@
       border: 1px solid #ffffff;
       border-radius: 4px;
       @include text(700, 16px, 150%, #fff);
+      cursor: pointer;
+      transition: .2s;
+      &:hover{
+        background: #FFFFFF;
+        border: 1px solid $oren;
+        color: $oren;
+        transition: .2s;
+      }
     }
   }
   &__block{
@@ -35,6 +43,7 @@
         position: absolute;
         top: 10px;
         left: 10px;
+        cursor: pointer;
       }
     }
 

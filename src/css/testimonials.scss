@@ -1,3 +1,27 @@
+.swiper {
+  width: calc(80% - 10px);
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
 .testimonials{
   padding-bottom: 135px;
   background: #F4F5F7;
@@ -45,14 +69,19 @@
     display: flex;
     flex-direction: column;
   }
+  &__btns{
+    position: relative;
+    z-index: 6;
+  }
   &__btns-prev{
     position: absolute;
-    top: 40%;
+    bottom: 40%;
     right: -100px;
+    z-index: 100;
   }
   &__btns-next{
     position: absolute;
-    top: 40%;
+    bottom: 40%;
     left: -100px;
   }
 }

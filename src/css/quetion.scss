@@ -5,10 +5,11 @@
     display: flex;
     column-gap: 135px;
   }
-  &__img{
-    width: calc( 65% - 72.5px);
+  &__image{
+    width: calc( 65% - 77.5px);
   }
   &__block{
+    width: calc(35% - 77.5px);
     &-desc{
       @include text(700, 16px, 150%, $black);
       text-transform: uppercase;
@@ -34,6 +35,13 @@
       border: none;
       margin-top: 48px;
       cursor: pointer;
+      transition: .2s;
+      &:hover{
+        background: #FFFFFF;
+        border: 1px solid $oren;
+        color: $oren;
+        transition: .2s;
+      }
     }
 
   }

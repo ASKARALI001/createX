@@ -8,28 +8,31 @@
     position: relative;
   }
   &__info{
-    width: calc(30% - 77.5px);
+    width: calc(33% - 77.5px);
     &-desc{
       @include text(700, 16px, 150%, $black);
       margin-bottom: 10px;
 
     }
     &-title{
-      @include text(900, 46px, 160%, $black);
+      @include text(900, 37px, 130%, $black);
     }
     &-text{
       @include text(400, 16px, 150%,  #424551);
       margin: 48px 0 25px;
     }
-    &-svg{
+    &-logo{
       display: flex;
       justify-content: space-between;
+      column-gap: 13px;
+
 
     }
   }
   &__images{
+    width: calc(77% - 77.5px);
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 0;
   }
 }

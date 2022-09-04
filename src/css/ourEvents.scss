@@ -89,9 +89,10 @@
       cursor: pointer;
       transition: .2s;
       &:hover{
-        border: 1px solid #787A80;
+        background: #FFFFFF;
+        border: 1px solid $oren;
+        color: $oren;
         transition: .2s;
-        transform: scale(1.02);
       }
     }
   }
