@@ -138,19 +138,68 @@
   .testimonials__desc {
     font-size: 12px;
   }
+  .testimonials__comments-desc {
+    margin-left: 15px;
+  }
+  .testimonials__avat {
+    margin-top: 5px;
+  }
+  .testimonials__btns-prev {
+    position: absolute;
+    bottom: 40%;
+    right: 0;
+  }.testimonials__btns-next {
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+  }
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 676px) {
+  .testimonials {
+    padding-bottom: 70px;
+  }
+  .meet {
+    padding: 60px 0 60px;
+  }
+  .meet__btns {
+    display: none;
+  }
+  .testimonials__block {
+    width: 100%;
+  }
+  .testimonials__comments-desc {
+    font-size: 12px;
+  }
 
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 425px) {
+  .testimonials__bloc-span svg {
+    width: 12px;
+  }
+  .testimonials__comments-desc {
+    font-size: 11px;
+  }
+  .testimonials__title {
+    font-size: 24px;
+  }
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 375px) {
+  .testimonials__block {
+    padding: 20px 2px;
+  }
+  .testimonials__comments-desc {
+    margin-left: 6px;
+  }
+  .testimonials__avat-desc {
+    font-size: 10px;
+  }
+  .testimonials__bloc-span svg {
+    width: 8px;
+  }
 }
 
 @media (max-width: 1200px) {
