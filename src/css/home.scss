@@ -61,7 +61,12 @@
 
 
 @media (max-width: 1200px) {
-  
+  .home {
+    padding: 48px 0 80px;
+  }
+  .home__list {
+    margin-top: 87px;
+  }
 }
 @media (max-width: 1024px) {
   .home {

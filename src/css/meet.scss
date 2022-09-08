@@ -46,24 +46,29 @@
 
     }
   }
-  &__block{
+
+  &__block {
     display: flex;
     column-gap: 30px;
     position: relative;
     z-index: 5;
 
   }
-  &__card{
+
+  &__card {
     width: 100%;
     text-align: center;
-    &-desc{
+
+    &-desc {
       @include text(400, 16px, 160%, #787A80);
     }
-    &-image{
+
+    &-image {
       padding: 20px 20px 0 20px;
       background: #FFCF2D;
       border-radius: 4px;
       position: relative;
+
       &::before {
         content: '';
         width: 100%;
@@ -74,16 +79,19 @@
         left: 0;
         z-index: 2;
       }
+
       &:hover {
         .meet__card-social {
           display: flex;
           column-gap: 12px;
         }
       }
+
       &:hover::before {
         background: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
       }
     }
+
     &-social {
       display: none;
       align-items: center;
@@ -91,16 +99,19 @@
       bottom: 22px;
       right: 22px;
     }
+
     &-link {
       position: relative;
       z-index: 4;
+
       &:hover {
         svg path {
           fill: white;
         }
       }
     }
-    &-title{
+
+    &-title {
       @include text(700, 20px, 150%, #424551);
       margin: 16px 0 5px;
     }
@@ -113,9 +124,11 @@
   width: 100%;
 }
 
-.meet .swiper-button-next::after{
+.meet .swiper-button-next::after {
   display: none;
 }
-.meet .swiper-button-prev::after{
+
+.meet .swiper-button-prev::after {
   display: none;
 }
+

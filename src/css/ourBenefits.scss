@@ -1,21 +1,25 @@
-.ourBenefits{
+.ourBenefits {
   padding-bottom: 140px;
   background: #ffffff;
-  &__desc{
+
+  &__desc {
     @include text(700, 16px, 150%, $black);
     text-transform: uppercase;
     text-align: center;
   }
-  &__title{
+
+  &__title {
     @include text(900, 46px, 130%, $black);
     text-align: center;
   }
-  &__btns{
+
+  &__btns {
     display: flex;
     column-gap: 5px;
     justify-content: space-between;
     align-items: center;
-    &-btn{
+
+    &-btn {
       @include text(700, 16px, 160%, #9A9CA5);
       padding: 10px 70px 10px 70px;
       border: 1px solid #ffffff;
@@ -24,34 +28,151 @@
       cursor: pointer;
       transition: .2s;
       margin: 60px 0 80px;
+
       &:hover {
         fill: $oren;
         border: 1px solid $oren;
         transition: .2s;
         color: $oren;
       }
+
       &:hover span path {
         fill: $oren;
       }
     }
 
   }
-  &__block{
+
+  &__block {
     display: flex;
     column-gap: 135px;
   }
 
-  &__text{
+  &__text {
     width: calc(47% - 77.5px);
-    &-title{
+
+    &-title {
       @include text(900, 32px, 130%, $black);
       margin-bottom: 24px;
     }
-    &-desc{
+
+    &-desc {
       @include text(400, 16px, 160%, $black);
     }
   }
-  &__image{
+
+  &__image {
     width: calc(63% - 77.5px);
   }
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .ourBenefits {
+    padding-bottom: 80px;
+  }
+  .ourBenefits__desc {
+    font-size: 13px;
+  }
+  .ourBenefits__title {
+    font-size: 40px;
+  }
+  .ourBenefits__btns-btn {
+    font-size: 10px;
+    padding: 10px 30px 10px 30px;
+    margin: 39px 0 54px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ourBenefits__text-title {
+    font-size: 25px;
+    line-height: 109%;
+  }
+
+  .ourBenefits__text-desc {
+    font-size: 20px;
+    line-height: 143%;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .ourBenefits__text-title {
+    font-size: 22px;
+  }
+  .ourBenefits__text-desc {
+    font-size: 14px;
+    line-height: 143%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .ourBenefits__text-desc {
+    font-size: 12px;
+    line-height: 143%;
+  }
+  .ourBenefits__text-title {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .ourBenefits__title {
+    font-size: 33px;
+  }
+
+  .ourBenefits__btns-btn {
+    font-size: 9px;
+    padding: 7px 10px 7px 10px;
+    margin: 24px 0 35px;
+  }
+}
+
+
+@media (max-width: 676px) {
+  .ourBenefits__block {
+    flex-wrap: wrap-reverse;
+  }
+  .ourBenefits__image {
+    width: 100%;
+  }
+  .ourBenefits__text {
+    width: 100%;
+  }
+  .ourBenefits {
+    padding-bottom: 50px;
+  }
+  .ourBenefits__title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .ourBenefits__title {
+    font-size: 24px;
+  }
+  .ourBenefits__btns-btn {
+    font-size: 9px;
+    padding: 7px 5px;
+    margin: 12px 0 18px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1024px) {
+
 }
