@@ -132,3 +132,67 @@
   display: none;
 }
 
+
+@media (max-width: 1200px) {
+  .meet {
+    padding: 120px 0 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .meet__top {
+    margin: 8px 0 50px;
+  }
+  .meet__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .meet__card-title {
+    font-size: 14px;
+  }
+  .meet__card-desc {
+    font-size: 11px;
+  }
+  .meet {
+    padding: 95px 0 95px;
+  }
+  .meet__title {
+    font-size: 37px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 676px) {
+  .meet__card-title {
+    font-size: 24px;
+  }
+  .meet__card-desc {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 425px) {
+  .meet {
+    padding: 50px 0 50px;
+  }
+  .meet__desc {
+    font-size: 14px;
+  }
+  .meet__top {
+    margin: 8px 0 24px;
+  }
+  .meet__title {
+    font-size: 29px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}

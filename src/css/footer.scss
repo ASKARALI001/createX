@@ -54,6 +54,10 @@
       }
     }
   }
+  &__connection {
+    display: flex;
+    column-gap: 60px;
+  }
   &__contacts{
     display: flex;
     flex-direction: column;
@@ -86,6 +90,9 @@
 
     }
     &-from{
+
+    }
+    &-block {
       position: relative;
       &::before{
         content: '→';

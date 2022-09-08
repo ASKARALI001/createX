@@ -22,25 +22,29 @@
 }
 
 
-.testimonials{
+.testimonials {
   padding-bottom: 135px;
   background: #F4F5F7;
-  &__desc{
+
+  &__desc {
     @include text(700, 16px, 150%, $black);
     text-align: center;
   }
-  &__title{
+
+  &__title {
     @include text(900, 46px, 130%, $black);
     margin: 8px 0 60px;
     text-align: center;
   }
-  &__comments{
-    &-desc{
+
+  &__comments {
+    &-desc {
       @include text(400, 20px, 150%, #424551);
       margin-left: 30px;
     }
   }
-  &__block{
+
+  &__block {
     position: relative;
     width: calc(80% - 10px);
     background: #ffffff;
@@ -48,39 +52,107 @@
     padding: 64px 105px;
     margin: 0 auto;
   }
-  &__avat{
+
+  &__avat {
     display: flex;
     column-gap: 8px;
     margin-top: 24px;
     width: 245px;
-    &-img{
+
+    &-img {
       width: 45px;
     }
-    &-sutitle{
+
+    &-sutitle {
       @include text(700, 16px, 150%, $black);
     }
-    &-desc{
+
+    &-desc {
       @include text(400, 14px, 150%, #787A80);
     }
 
 
   }
-  &__text{
+
+  &__text {
     display: flex;
     flex-direction: column;
   }
-  &__btns{
+
+  &__btns {
     position: relative;
     z-index: 6;
   }
-  &__btns-prev{
+
+  &__btns-prev {
     position: absolute;
     bottom: 40%;
     right: 8px;
   }
-  &__btns-next{
+
+  &__btns-next {
     position: absolute;
     bottom: 40%;
     left: 8px;
   }
+}
+
+
+@media (max-width: 1200px) {
+  .meet {
+    padding: 80px 0 80px;
+  }
+  .testimonials__title {
+    font-size: 39px;
+    margin: 8px 0 45px;
+  }
+  .testimonials__block {
+    padding: 25px 31px;
+  }
+  .testimonials__bloc-span svg{
+    width: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  .testimonials__comments-desc {
+    font-size: 15px;
+    margin-left: 25px;
+  }
+  .testimonials__title {
+    font-size: 35px;
+    margin: 8px 0 30px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .testimonials__title {
+    font-size: 27px;
+    margin: 8px 0 21px;
+  }
+  .testimonials__desc {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }

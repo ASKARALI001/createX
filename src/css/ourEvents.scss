@@ -1,22 +1,26 @@
-.ourEvents{
+.ourEvents {
   background: $peach;
-  padding:80px 0;
-  &__desc{
+  padding: 80px 0;
+
+  &__desc {
     @include text(700, 16px, 150%, $black);
     text-transform: uppercase;
     text-align: center;
   }
-  &__title{
+
+  &__title {
     @include text(900, 46px, 160%, $black);
     text-align: center;
     margin: 10px 0 60px;
   }
-  &__block{
+
+  &__block {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
   }
-  &__card{
+
+  &__card {
     display: flex;
     justify-content: space-between;
     padding: 32px 40px;
@@ -25,7 +29,8 @@
     border-radius: 4px;
     cursor: pointer;
     transition: .2s;
-    &:hover{
+
+    &:hover {
       border: 1px solid $peach;
       box-shadow: 0px 80px 80px -20px rgba(255, 63, 58, 0.16), 0px 30px 24px -10px rgba(255, 63, 58, 0.1), 0px 12px 10px -6px rgba(255, 63, 58, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
       border-radius: 4px;
@@ -33,28 +38,33 @@
       transform: scale(1.02);
     }
 
-    &-span{
-      @include text(900, 48px ,130%, $oren);
+    &-span {
+      @include text(900, 48px, 130%, $oren);
     }
-    &-block{
+
+    &-block {
       display: flex;
       column-gap: 40px;
       justify-content: space-between;
       align-items: center;
 
     }
-    &-months{
-      &-mon{
+
+    &-months {
+      &-mon {
         @include text(700, 20px, 150%, $black);
 
       }
-      &-time{
+
+      &-time {
         @include text(400, 16px, 160%, #787A80);
       }
     }
-    &-texts{
+
+    &-texts {
     }
-    &-btn{
+
+    &-btn {
       padding: 10px 32px;
       background: #ffffff;
       border: 1px solid $oren;
@@ -62,7 +72,8 @@
       border-radius: 4px;
       cursor: pointer;
       transition: .2s;
-      &:hover{
+
+      &:hover {
         background: $primary;
         color: white;
         transition: .2s;
@@ -70,16 +81,19 @@
     }
 
   }
-  &__question{
+
+  &__question {
     display: flex;
     justify-content: center;
     column-gap: 40px;
     margin-top: 60px;
-    &-subtitle{
+
+    &-subtitle {
       @include text(700, 24px, 150%, $black);
 
     }
-    &-btn{
+
+    &-btn {
       @include text(700, 16px, 150%, #fff);
       text-align: center;
       border: 1px solid $oren;
@@ -88,7 +102,8 @@
       border-radius: 4px;
       cursor: pointer;
       transition: .2s;
-      &:hover{
+
+      &:hover {
         background: #FFFFFF;
         border: 1px solid $oren;
         color: $oren;
@@ -96,4 +111,110 @@
       }
     }
   }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+  .ourEvents__card-span {
+    font-size: 36px;
+    margin: auto;
+  }
+  .ourEvents__card-months-time {
+    font-size: 12px;
+  }
+  .ourEvents__title {
+    font-size: 39px;
+    margin: 10px 0 36px;
+  }
+  .ourEvents__card-months-mon {
+    font-size: 17px;
+  }
+  .ourEvents__card-btn {
+    padding: 10px 25px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ourEvents {
+    background: #FDDBD2;
+    padding: 60px 0;
+  }
+  .ourEvents__card-block {
+    column-gap: 15px;
+  }
+  .ourEvents__card-months-mon {
+    font-size: 15px;
+  }
+  .ourEvents__title {
+    font-size: 33px;
+    margin: 7px 0 29px;
+  }
+  .ourEvents__desc {
+    font-size: 12px;
+  }
+  .ourEvents__question {
+    margin-top: 35px;
+  }
+
+}
+
+@media (max-width: 676px) {
+  .ourEvents__title {
+    font-size: 25px;
+    margin: 4px 0 15px;
+  }
+  .ourEvents__card {
+    padding: 20px;
+  }
+  .ourEvents__card-block {
+    flex-wrap: wrap;
+    margin-left: 10px;
+    row-gap: 10px;
+  }
+  .ourEvents__card-months-mon {
+    font-size: 13px;
+  }
+  .ourEvents__question-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1E212C;
+  }
+  .ourEvents__question-btn {
+    font-size: 11px;
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .ourEvents__question {
+    column-gap: 14px;
+
+  }
+}
+
+@media (max-width: 375px) {
+  .ourEvents {
+    padding: 40px 0;
+  }
+  .ourEvents__question-btn {
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }

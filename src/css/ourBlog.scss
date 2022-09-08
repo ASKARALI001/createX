@@ -1,18 +1,22 @@
-.ourBlog{
+.ourBlog {
   padding: 120px 0 180px;
   background: #ffffff;
-  &__desc{
+
+  &__desc {
     @include text(700, 16px, 150%, $black);
     text-transform: uppercase;
   }
-  &__top{
+
+  &__top {
     display: flex;
     justify-content: space-between;
     margin: 8px 0 60px;
-   &-title{
-     @include text(900, 46px, 100%, $black);
-   }
-    &-btn{
+
+    &-title {
+      @include text(900, 46px, 100%, $black);
+    }
+
+    &-btn {
       background: $oren;
       padding: 0 40px;
       border: 1px solid #ffffff;
@@ -20,7 +24,8 @@
       @include text(700, 16px, 150%, #fff);
       cursor: pointer;
       transition: .2s;
-      &:hover{
+
+      &:hover {
         background: #FFFFFF;
         border: 1px solid $oren;
         color: $oren;
@@ -28,17 +33,21 @@
       }
     }
   }
-  &__block{
+
+  &__block {
     display: flex;
     column-gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
   }
-  &__card{
+
+  &__card {
     width: calc(30% - 20px);
-    &-image{
-      position:relative;
-      &-small{
+
+    &-image {
+      position: relative;
+
+      &-small {
         width: 85px;
         position: absolute;
         top: 10px;
@@ -47,42 +56,48 @@
       }
     }
 
-    &-months{
+    &-months {
       display: flex;
       column-gap: 11px;
       align-items: center;
-      &-desc{
+
+      &-desc {
         @include text(400, 14px, 150%, #787A80);
         text-align: center;
       }
     }
-    &-subtitle{
+
+    &-subtitle {
       @include text(700, 20px, 150%, $black);
       margin: 11px 0 8px;
     }
-    &-info{
+
+    &-info {
       @include text(400, 16px, 150%, $black);
       margin: 8px 0 16px;
 
 
     }
-    &-links{
+
+    &-links {
       display: flex;
-      &-a{
+
+      &-a {
         @include text(700, 14px, 150%, $black);
         margin-right: 11px;
         position: relative;
+
         &::before {
-        content: "";
-        width: 0;
-        height: 2px;
-        background: $primary;
-        position: absolute;
-        bottom: -2px;
-        left: -15px;
-        -webkit-transition: 0.7s;
-        transition: 0.7s;
-      }
+          content: "";
+          width: 0;
+          height: 2px;
+          background: $primary;
+          position: absolute;
+          bottom: -2px;
+          left: -15px;
+          -webkit-transition: 0.7s;
+          transition: 0.7s;
+        }
 
         &:hover::before {
           width: calc(100% + 30px);
@@ -91,4 +106,95 @@
       }
     }
   }
+}
+
+
+@media (max-width: 1200px) {
+  .ourBlog__card-months-desc {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ourBlog {
+    padding: 90px 0 120px;
+  }
+  .ourBlog__top {
+    margin: 8px 0 40px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .ourBlog__top-title {
+    font-size: 36px;
+  }
+  .ourBlog__desc {
+    font-size: 13px;
+  }
+  .ourBlog__card-subtitle {
+    font-size: 15px;
+  }
+  .ourBlog__card-info {
+    font-size: 12px;
+    margin: 3px 0 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ourBlog__card {
+    width: calc(50% - 20px);
+  }
+  .ourBlog__card-info {
+    font-size: 14px;
+    margin: 3px 0 8px;
+  }
+  .ourBlog__card-subtitle {
+    font-size: 17px;
+  }
+  .ourBlog__block {
+    row-gap: 30px;
+  }
+
+}
+
+@media (max-width: 676px) {
+  .ourBlog {
+    padding: 60px 0 70px;
+  }
+  .ourBlog__card {
+    width: 100%;
+  }
+  .ourBlog__card-months-desc {
+    font-size: 12px;
+  }
+  .ourBlog__top-btn {
+    padding: 0 20px;
+  }
+  }
+
+  @media (max-width: 425px) {
+    .ourBlog__top-title {
+      font-size: 31px;
+    }
+  }
+
+@media (max-width: 375px) {
+  .ourBlog__top-btn {
+    font-size: 12px;
+  }
+  .ourBlog__top-title {
+    font-size: 29px;
+  }
+  .ourBlog__top {
+    margin: 8px 0 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }
