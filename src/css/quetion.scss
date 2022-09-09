@@ -148,6 +148,12 @@
 }
 
 @media (max-width: 425px) {
+  .question__image {
+    width: 100%;
+  }
+  .question__block {
+    width: 100%;
+  }
   .question__block-desc {
     font-size: 8px;
   }

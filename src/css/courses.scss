@@ -102,3 +102,33 @@
     }
   }
 }
+.aside{
+  display: none;
+}
+
+
+@media (max-width: 1200px) {
+  .studying__input {
+    width: 260px;
+  }
+  .studying__list-items {
+    font-size: 13px;
+  }
+  .studying__title {
+    font-size: 42px;
+    margin: 8px 0 47px;
+  }
+  .studying {
+    padding: 80px 0 90px;
+    background: #FFFFFF;
+  }
+  
+}
+@media (max-width: 1024px) {
+  .studying__input {
+    width: 226px;
+  }
+  
+}
+@media (max-width: 993px) {
+}

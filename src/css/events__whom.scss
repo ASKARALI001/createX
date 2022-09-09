@@ -1,0 +1,25 @@
+.events__whom{
+  padding-bottom: 180px;
+  background: #FFFFFF;
+  &-row{
+    display: flex;
+    column-gap: 135px;
+  }
+  &-block{
+    width: calc(46% - 67.5px);
+  }
+  &-info{
+    width: calc(54% - 67.5px);
+  }
+  &-desc{
+    @include text(700, 16px, 150%, $black);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  &-title{
+    @include text(900, 46px, 130%, $black);
+  }
+  &-info-desc{
+    @include text(700, 20px, 150%, $black)
+  }
+}

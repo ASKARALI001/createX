@@ -1,0 +1,53 @@
+.events__speaker{
+  padding: 180px 0;
+  background: #FFFFFF;
+  &-row{
+    display: flex;
+    column-gap: 135px;
+  }
+  &-image{
+    width: calc(46% - 67.5px);
+
+  }
+  &-bg{
+    background: #FFCF2D;
+    border-radius: 4px;
+  }
+  &-block{
+    width: calc(50% - 67.5px);
+  }
+  &-desc{
+    @include text(700, 16px, 150%, $black);
+    text-transform: uppercase;
+  }
+  &-title{
+    @include text(900, 46px, 130%, $black);
+    margin: 8px 0 16px;
+  }
+  &-text{
+    @include text(400, 20px, 160%, #787A80);
+    margin-bottom: 30px;
+  }
+  &-info{
+    @include text(400, 16px, 160%, #424551);
+    margin-bottom: 40px;
+  }
+  &-images{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 42px;
+  }
+  &-svg{
+    display: flex;
+    column-gap: 27px;
+
+  }
+  svg{
+    cursor: pointer;
+    transition: .2s;
+    &:hover path{
+      fill:#FF3F3A;
+      transition: .2s;
+    }
+  }
+}

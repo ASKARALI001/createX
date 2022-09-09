@@ -1,0 +1,14 @@
+.events__home{
+  padding: 110px 0 120px;
+  background: $peach;
+  &-desc{
+    @include text(700, 16px, 150%, $oren);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  &-title{
+    @include text(900, 46px,130%, $black);
+    text-align: center;
+  }
+}
