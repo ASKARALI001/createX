@@ -20,6 +20,10 @@ main{
   overflow: hidden;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 @mixin text($fw, $fz, $lh, $col) {
   @if $fw == 900,700 {
@@ -66,3 +70,16 @@ img{
 @import "events__talk";
 @import "events __speaker";
 @import "events__whom";
+@import "events__subscibe";
+@import "events__leave";
+@import "events__check";
+@import "aboutUs__home";
+@import "aboutUs__video";
+@import "aboutUs__values";
+@import "aboutUs__directions";
+@import "aboutUs__process";
+@import "aboutUs__meet";
+@import "blog";
+@import "contacts__map";
+@import "contacts__drop";
+

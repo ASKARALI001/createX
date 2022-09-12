@@ -47,11 +47,11 @@
                 </svg></a>
             </h1>
             <ul class="header__list">
-                <li class="header__list-item">About Us</li>
-                <li class="header__list-item">Courses</li>
+                <li class="header__list-item"><a href="./aboutUs.html" class="header__link">About Us</a></li>
+                <li class="header__list-item"><a href="#" class="header__link header__active">Courses</a></li>
                 <li class="header__list-item"><a class="header__link" href="./events.html">Events</a></li>
-                <li class="header__list-item">Blog</li>
-                <li class="header__list-item">Contacts</li>
+                <li class="header__list-item"><a href="./blog.html" class="header__link">Blog</a></li>
+                <li class="header__list-item"><a href="./contacts.html" class="header__link">Contacts</a></li>
 
             </ul>
             <div class="header__block">
@@ -77,21 +77,6 @@
     </div>
 </header>
 <main>
-    <aside class="aside">
-        <div class="studying__nav">
-            <ul class="studying__list">
-                <li class="studying__list-items">All <sup>17</sup></li>
-                <li class="studying__list-items">Marketing <sup>4</sup></li>
-                <li class="studying__list-items">Management <sup>3</sup></li>
-                <li class="studying__list-items">HR & Recruting <sup>5</sup></li>
-                <li class="studying__list-items">Design <sup>2</sup></li>
-                <li class="studying__list-items">Development <sup>3</sup></li>
-            </ul>
-            <form class="studying__from" action="">
-                <input  placeholder="Search course..." class="studying__input" type="text">
-            </form>
-        </div>
-    </aside>
     <section class="studying">
         <div class="container">
             <p class="studying__desc">Enjoy your studying!</p>
@@ -531,6 +516,46 @@
         </div>
 
     </section>
+    <section class="certificate">
+        <div class="container">
+            <div class="certificate__block">
+                <div class="certificate__info">
+                    <p class="certificate__info-desc">Createx Certificate</p>
+                    <h2 class="certificate__info-title">Your expertise will <br> be confirmed</h2>
+                    <p class="certificate__info-text">We are accredited by international professional organizations and
+                        institutes:</p>
+                    <div class="certificate__info-logo">
+                        <div class="certificate__info-logo-images">
+                            <img src="../../src/image/certificate2.png" alt="logo">
+                        </div>
+                        <div class="certificate__info-logo-images">
+                            <img src="../../src/image/caertificaet3.png" alt="logo">
+                        </div>
+                        <div class="certificate__info-logo-images">
+                            <img src="../../src/image/acertificate4.png" alt="logo">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="certificate__images aboutUs__cert-imges">
+                    <img class="certificate__img" src="../../src/image/certificate.png" alt="certificate">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__img-befor"><img src="../../src/image/illustration.png" alt="hend"></div>
+        <div class="subscribe__img-after"><img src="../../src/image/illustration.png" alt="hend"></div>
+        <div class="container">
+            <p class="subscribe__desc">Don’t miss anything</p>
+            <h3 class="subscribe__title">Subscribe to the Createx School <br> announcements</h3>
+            <form class="subscribe__form">
+                <input class="subscribe__input" placeholder="Your working email" type="text">
+                <button class="subscribe__btn" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
 </main>
 <footer class="footer test">
     <div class="container">
@@ -682,10 +707,13 @@
                 </svg>
                 by Createx Studio
             </p>
-            <p class="footer__bottom-info">GO TO TOP</p>
+            <a href="#" class="footer__bottom-info to-top">GO TO TOP</a>
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://kit.fontawesome.com/2157a6081e.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="../../src/js/main.js"></script>
 

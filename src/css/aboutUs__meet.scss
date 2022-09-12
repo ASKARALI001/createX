@@ -1,0 +1,35 @@
+.aboutUs__cert-imges{
+  position: static;
+}
+
+.aboutUs__meet-block{
+  flex-wrap: wrap;
+  row-gap: 60px;
+}
+.aboutUs__meet-desc{
+  text-align: center;
+}
+.aboutUs__meet-title{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.aboutUs__meet-card{
+  width: calc(25% - 22.5px);
+}
+
+
+.aboutUs__jobs{
+  padding-bottom: 80px;
+  background: #F4F5F7;
+  &-block{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 20px;
+  }
+  &-card{
+    width: calc(16.66666% - 50px);
+    margin: 0 auto;
+    cursor: pointer;
+  }
+}

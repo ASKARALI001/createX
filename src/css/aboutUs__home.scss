@@ -1,0 +1,155 @@
+.header__aboutUs {
+  background: #FFFFFF;
+
+}
+
+.aboutUs__home {
+  padding: 70px 0 180px;
+  background: #FFFFFF;
+
+  &-block {
+    display: flex;
+    column-gap: 135px;
+  }
+
+  &-card {
+    width: calc(55% - 67.5px);
+  }
+
+  &-desc {
+    @include text(700, 16px, 150%, $black);
+    text-transform: uppercase;
+  }
+
+  &-title {
+    @include text(900, 46px, 130%, $black);
+    margin: 8px 0 48px;
+  }
+
+  &-text {
+    @include text(700, 20px, 150%, $black);
+    margin-bottom: 24px;
+  }
+
+  &-info {
+    @include text(400, 16px, 150%, #424551)
+  }
+
+  &-btn {
+    background: #FFFFFF;
+    margin-top: 60px;
+  }
+
+  &-image {
+    width: calc(45% - 67.5px);
+  }
+
+
+}
+
+@media (max-width: 1200px) {
+  .aboutUs__home {
+    padding: 40px 0 140px;
+  }
+  .aboutUs__home-desc {
+    font-size: 13px;
+  }
+  .aboutUs__home-title {
+    font-size: 39px;
+    margin: 8px 0 20px;
+  }
+  .aboutUs__home-text {
+    font-size: 17px;
+    margin-bottom: 11px;
+  }
+  .aboutUs__home-info {
+    font-size: 13px;
+  }
+  aboutUs__home-btn {
+    background: #FFFFFF;
+    margin-top: 36px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .home__card-btn {
+    font-size: 11px;
+  }
+  .aboutUs__home-btn {
+    background: #FFFFFF;
+    margin-top: 26px;
+  }
+  .aboutUs__home {
+    padding: 40px 0 80px;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+  .aboutUs__home-block {
+    justify-content: normal;
+    column-gap: 20px;
+  }
+  .aboutUs__home-image {
+    width: calc(70% - 67.5px);
+  }
+  .aboutUs__home-title {
+    font-size: 27px;
+  }
+  .aboutUs__home-text {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .aboutUs__home-title {
+    font-size: 26px;
+  }
+  .aboutUs__home-text {
+    font-size: 13px;
+  }
+
+
+}
+
+@media (max-width: 676px) {
+  .aboutUs__home-block {
+    flex-wrap: wrap-reverse;
+  }
+  .aboutUs__home-card {
+    width: calc(100% - 10px);
+  }
+  .aboutUs__home-image {
+    width: 100%;
+  }
+  .aboutUs__home-info {
+    text-align: center;
+  }
+  .aboutUs__home-text {
+    text-align: center;
+  }
+  .aboutUs__home-title {
+    text-align: center;
+      margin: 8px 0 14px;
+
+  }
+  .aboutUs__home-desc {
+    text-align: center;
+  }
+  .aboutUs__home-btn {
+    background: #FFFFFF;
+    margin-top: 23px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}

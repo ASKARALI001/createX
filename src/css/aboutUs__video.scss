@@ -1,0 +1,39 @@
+.aboutUs__video{
+  background: #FFFFFF;
+  padding-bottom: 180px;
+  &-block{
+    display: flex;
+    column-gap: 135px;
+  }
+  &-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    column-gap: 16px;
+  }
+  &-desc{
+    @include text(700, 14px, 150%, $black);
+
+  }
+  &-image{
+    width: 70%;
+  }
+  &-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    row-gap: 20px;
+  }
+  &-row{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+  }
+  &-num{
+    @include text(900, 48px, 130%, $oren);
+  }
+  &-text{
+    @include text(700, 18px, 150%, $black);
+  }
+}

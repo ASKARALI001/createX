@@ -1,0 +1,40 @@
+.events__check {
+  padding: 100px 0 180px;
+  background: #F4F5F7;
+
+  &-desc {
+    text-transform: unset;
+    margin: 20px 0 8px;
+  }
+
+  &-block {
+    display: flex;
+    column-gap: 30px;
+
+  }
+
+  &-card {
+    width: calc(33.33333% - 20px);
+    border: 1px solid #E5E8ED;
+    box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    padding: 24px;
+  }
+
+  &-btn {
+    @include text(700, 14px, 150%, $oren);
+    background: #F4F5F7;
+    border: 1px solid $oren;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    margin-top: 50px;
+    transition: .2s;
+    cursor: pointer;
+    &:hover{
+      background: $primary;
+      color: #FFFFFF;
+      transition: .2s;
+    }
+  }
+}

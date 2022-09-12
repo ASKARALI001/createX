@@ -1,0 +1,24 @@
+.events__subscribe{
+  padding: 60px 0;
+  background: $peach;
+  &-row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 114px;
+  }
+  &-image{
+    width: calc(40% - 57px);
+  }
+  &-text{
+    width: calc(60% - 57px);
+  }
+  &-title{
+    @include text(900, 32px, 130%, $black);
+    margin-bottom: 40px;
+  }
+  &-desc{
+    @include text(400, 16px, 150%, #424551);
+    margin-top: 24px;
+  }
+}

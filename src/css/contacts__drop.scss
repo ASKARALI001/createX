@@ -1,0 +1,69 @@
+.contacts__drop{
+  padding: 180px 0;
+  background: #FFFFFF;
+  &-block{
+    display: flex;
+    column-gap: 100px;
+  }
+  &-form{
+    display: flex;
+    flex-direction: column;
+  }
+  &-column{
+    display: flex;
+    column-gap: 25px;
+  }
+  &-row{
+    display: flex;
+    flex-direction: column;
+  }
+  &-label{
+    @include text(400, 16px, 150%, #424551);
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 24px;
+
+  }
+  &-input{
+    @include text(400, 16px, 150%, #9A9CA5);
+    padding: 13px 0 13px 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    width: 340px;
+
+
+  }
+  &-textarea{
+    @include text(400, 16px, 150%, #9A9CA5);
+    padding: 13px 16px;
+    height: 128px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    resize: none;
+
+  }
+  &-buttom{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 48px;
+
+  }
+  &-desc{
+    @include text(400, 16px, 150%, #424551);
+  }
+  &-btn{
+    @include text(700, 16px, 150%, #fff);
+    padding: 10px ;
+    border: 1px solid $oren;
+    background:$primary;
+    border-radius: 4px;
+    width: 340px;
+    transition: .2s;
+    cursor: pointer;
+    &:hover{
+      color: $oren;
+      background: #FFFFFF;
+      transition: .2s;
+    }
+  }
+}

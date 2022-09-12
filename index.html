@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CreateX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -46,11 +47,11 @@
                 </svg>
             </h1>
             <ul class="header__list">
-                <li class="header__list-item">About Us</li>
+                <li class="header__list-item"><a class="header__link" href="./src/pages/aboutUs.html">About Us</a></li>
                 <li class="header__list-item"><a class="header__link" href="./src/pages/courses.html">Courses</a></li>
                 <li class="header__list-item"><a href="./src/pages/events.html" class="header__link">Events</a></li>
-                <li class="header__list-item">Blog</li>
-                <li class="header__list-item">Contacts</li>
+                <li class="header__list-item"><a href="./src/pages/blog.html" class="header__link">Blog</a></li>
+                <li class="header__list-item"><a href="./src/pages/contacts.html" class="header__link">Contacts</a></li>
 
             </ul>
             <div class="header__block">
@@ -82,7 +83,7 @@
                 <div class="home__block">
                     <div class="home__card">
                         <div class="home__card-icons">
-                            <span class="home__card-icons-icn">
+                            <a data-fancybox class="home__card-icons-icn" href="https://www.youtube.com/watch?v=QEdeefrpurE">
                     <svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle opacity="0.12" cx="42" cy="42" r="42" fill="#FF3F3A"/>
 <circle cx="42" cy="42" r="26" fill="#FF3F3A"/>
@@ -90,7 +91,7 @@
       fill="white"/>
 </svg>
 
-                </span>
+                </a>
                             <p class="home__card-desc">Play showreel</p>
                         </div>
                         <h2 class="home__card-title">Enjoy studying <br>
@@ -1241,11 +1242,13 @@
                 </svg>
                 by Createx Studio
             </p>
-            <p class="footer__bottom-info">GO TO TOP</p>
+            <a href="#" class="footer__bottom-info to-top">GO TO TOP</a>
         </div>
     </div>
 </footer>
-<!--<script>if(!window._teletypeWidget){window._teletypeWidget = window._teletypeWidget || {};!function(){var t = document.getElementsByTagName("app-teletype-root");if (t.length > 0 && _teletypeWidget.init)return;var d = new Date().getTime();var n = document.createElement("script"),c = document.getElementsByTagName("script")[0];n.id = "teletype-widget-embed",n.src = "https://widget.teletype.app/init.js?_=" + d,n.async = !0,n.setAttribute("data-embed-version", "0.1");c.parentNode.insertBefore(n, c);}();document.addEventListener("teletype.ready", function(){console.log("Teletype ready")});window.teletypeExternalId = "QDZ0eL3h_fRTQjn-KQOrDuPt6sXB8l0CllxZKfTNWJ_fEEhuATy8nEO1rTvVgY9Q";}</script>-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://kit.fontawesome.com/2157a6081e.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="src/js/main.js"></script>
 

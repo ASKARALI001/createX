@@ -8,10 +8,10 @@
   &__card{
     display: flex;
     flex-direction: column;
-    cursor: pointer;
     &-icons{
       display: flex;
       align-items: center;
+      cursor: pointer;
       &-desc{
         @include text(700, 14px, 150%, $black);
 

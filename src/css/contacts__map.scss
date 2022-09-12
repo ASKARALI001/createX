@@ -1,0 +1,40 @@
+.contacts__maps{
+  padding: 100px 0 180px;
+  background: #FFFFFF;
+  &-title{
+    margin-bottom: 40px;
+  }
+
+  &-block{
+    display: flex;
+    column-gap: 130px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-text{
+    display: flex;
+  }
+  &-row{
+    margin-left: 14px;
+  }
+
+  &-info{
+    @include text(700, 14px, 150%, #787A80);
+  }
+  &-dop{
+    @include text(400, 18px, 150%, $black);
+    margin-bottom: 24px;
+  }
+  &-tex{
+    margin-top: 48px;
+  }
+  &-icons{
+    display: flex;
+    column-gap: 33px;
+    margin-top: 25px;
+  }
+&_map{
+  width: 60%;
+}
+
+}

@@ -165,6 +165,11 @@
       @include text(700, 14px, 150%, #ffff);
       z-index: 2;
       opacity: 0.6;
+      &:hover{
+        transition: .2s;
+        color: #FFFFFF;
+        opacity: unset;
+      }
     }
   }
 

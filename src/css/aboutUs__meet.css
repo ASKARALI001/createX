@@ -1,0 +1,8 @@
+.aboutUs__meet-block {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutUs__meet-card {
+  width: 25%;
+}

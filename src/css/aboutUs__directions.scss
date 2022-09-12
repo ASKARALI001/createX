@@ -1,0 +1,45 @@
+.aboutUs__directions{
+  padding-bottom: 180px;
+  background: #FFFFFF;
+  &-block{
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+  }
+  &-card{
+    width: calc(33.33333% - 20px);
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    transition: .2s;
+    &:hover{
+      border: 1px solid #E5E8ED;
+      box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+      border-radius: 4px;
+      transition: .2s;
+      transform: scale(1.02);
+    }
+  }
+  &-btn-development{
+    background: #7772F1;
+  }
+  &-desc{
+    @include text(400, 16px, 160%, #787A80);
+    margin: 21px 0 20px;
+  }
+  &-image{
+    width: 100%;
+  }
+  &-text{
+    padding: 24px;
+  }
+  &-a{
+    font-size: 16px;
+  }
+  &-subtitle{
+    @include text(700, 20px, 150%, $black);
+    background: #F4F5F7;
+    border-radius: 4px;
+    padding: 164px 74px 196px;
+  }
+}

@@ -1,0 +1,50 @@
+.aboutUs__process{
+  background: #FFFFFF;
+  padding-bottom: 180px;
+  &-block{
+    display: flex;
+    column-gap: 200px;
+  }
+  &-left{
+    width: 40%;
+  }
+  &-text{
+    margin-bottom: 32px;
+    padding-left: 44px;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      background: #9A9CA5;
+      width: 1px;
+      height: 110px;
+      left: 3px;
+      top: 23px;
+
+    }
+  }
+  &-desc{
+    @include text(900, 12px, 150%, #787A80);
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: #FF3F3A;
+      border-radius: 4px;
+      left: -44px;
+      top: 6px;
+    }
+
+
+  }
+  &-subtitle{
+    @include text(700, 20px, 150%, $black);
+    margin: 2px 0 8px;
+  }
+  &-info{
+    @include text(400, 16px, 150%, #787A80);
+  }
+
+}
