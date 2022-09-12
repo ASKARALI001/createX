@@ -26,14 +26,18 @@
   &__list {
     display: flex;
     column-gap: 10px;
+    margin-bottom: 70px;
 
     &-items {
       @include text(700, 16px, 160%, #9A9CA5);
-      margin-bottom: 70px;
+
       padding: 10px 20px;
       border: 1px solid #FFFFFF;
       cursor: pointer;
       transition: .2s;
+      span {
+        white-space: nowrap;
+      }
 
       &:hover {
         transition: .2s;
@@ -121,11 +125,37 @@
   }
   
 }
-@media (max-width: 1024px) {
-  .studying__input {
-    width: 226px;
+@media (max-width: 992px) {
+  .studying__list {
+    overflow: scroll;
   }
-  
 }
-@media (max-width: 993px) {
+@media (max-width: 768px) {
+  .studying__title {
+    font-size: 31px;
+  }
+  .studying__nav{
+    flex-direction: column;
+  }
+  .studying__desc {
+    font-size: 12px;
+  }
+  .studying__list {
+    margin: 0;
+  }
+.studying__from{
+  margin: 25px 0;
+  text-align: center;
+}
+
+  .studying__card {
+    width: calc(50% - 15px);
+
+  }
+}
+@media (max-width: 676px) {
+  .studying__card {
+    width: 100%;
+  }
+
 }

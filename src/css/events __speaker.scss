@@ -1,53 +1,133 @@
-.events__speaker{
+.events__speaker {
   padding: 180px 0;
   background: #FFFFFF;
-  &-row{
+
+  &-row {
     display: flex;
     column-gap: 135px;
   }
-  &-image{
+
+  &-image {
     width: calc(46% - 67.5px);
 
   }
-  &-bg{
+
+  &-bg {
     background: #FFCF2D;
     border-radius: 4px;
   }
-  &-block{
+
+  &-block {
     width: calc(50% - 67.5px);
   }
-  &-desc{
+
+  &-desc {
     @include text(700, 16px, 150%, $black);
     text-transform: uppercase;
   }
-  &-title{
+
+  &-title {
     @include text(900, 46px, 130%, $black);
     margin: 8px 0 16px;
   }
-  &-text{
+
+  &-text {
     @include text(400, 20px, 160%, #787A80);
     margin-bottom: 30px;
   }
-  &-info{
+
+  &-info {
     @include text(400, 16px, 160%, #424551);
     margin-bottom: 40px;
   }
-  &-images{
+
+  &-images {
     display: flex;
     column-gap: 30px;
     margin-bottom: 42px;
   }
-  &-svg{
+
+  &-svg {
     display: flex;
     column-gap: 27px;
 
   }
-  svg{
+
+  svg {
     cursor: pointer;
     transition: .2s;
-    &:hover path{
-      fill:#FF3F3A;
+
+    &:hover path {
+      fill: #FF3F3A;
       transition: .2s;
     }
   }
+}
+
+@media (max-width: 1200px) {
+  .events__speaker-info {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .events__speaker-row {
+    column-gap: 60px;
+  }
+  .events__speaker {
+    padding: 70px 0;
+  }
+  .events__speaker-image {
+    width: calc(70% - 30px);
+  }
+  .events__speaker-desc {
+    font-size: 13px;
+  }
+  .events__speaker-text {
+    font-size: 13px;
+  }
+  .events__speaker-info {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  .events__speaker-title {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 768px) {
+  .events__speaker-row {
+    column-gap: 30px;
+  }
+  .events__speaker-image {
+    width: calc(60% - 15px);
+  }
+  .events__speaker-title {
+    font-size: 29px;
+  }
+  .events__speaker-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 676px) {
+  .events__speaker-row {
+    flex-wrap: wrap;
+  }
+  .events__speaker-image {
+    width: 100%;
+  }
+  .events__speaker-block {
+    width: 100%;
+  }
+  .events__speaker-svg {
+    justify-content: space-evenly;
+  }
+}
+
+
+@media (max-width: 1200px) {
+
 }

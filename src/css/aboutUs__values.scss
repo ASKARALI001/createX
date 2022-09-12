@@ -1,41 +1,110 @@
-.aboutUs__values{
+.aboutUs__values {
   padding-bottom: 180px;
   background: #FFFFFF;
-  &-desc{
+
+  &-desc {
     @include text(700, 16px, 150%, $black);
     text-transform: uppercase;
     text-align: center;
   }
-  &-title{
+
+  &-title {
     @include text(900, 46px, 130%, $black);
     margin: 8px 0 60px;
     text-align: center;
   }
-  &-block{
+
+  &-block {
     display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 45px;
 
   }
-  &-card{
+
+  &-card {
     width: 25%;
     display: flex;
     flex-direction: column;
   }
-  &-card svg{
+
+  &-card svg {
     margin: 0 auto;
   }
-  &-text{
+
+  &-text {
     @include text(700, 20px, 150%, $black);
     margin: 30px 0 8px;
     text-align: center;
 
   }
 
-  &-info{
+  &-info {
     @include text(400, 16px, 150%, #787A80);
     text-align: center;
   }
+
+}
+
+
+@media (max-width: 1024px) {
+  .aboutUs__values {
+    padding-bottom: 130px;
+  }
+}
+
+@media (max-width: 992px) {
+  .aboutUs__values-desc {
+    font-size: 12px;
+  }
+  .aboutUs__values-title {
+    font-size: 37px;
+    margin: 8px 0 40px;
+  }
+  .aboutUs__values-text {
+    font-size: 16px;
+    margin: 13px 0 8px;
+  }.aboutUs__values-info {
+     font-size: 12px;
+   }
+}
+
+@media (max-width: 676px) {
+
+  .aboutUs__values-block {
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 45px;
+    row-gap: 30px;
+  }
+  .aboutUs__values-svg{
+    display: none;
+  }
+  .aboutUs__values-card {
+    width: calc(50% - 22.5px);
+  }
+}
+
+@media (max-width: 425px) {
+  .aboutUs__values-title {
+    font-size: 34px;
+  }
+  .aboutUs__values {
+    padding-bottom: 90px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .aboutUs__values-info {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1024px) {
 
 }

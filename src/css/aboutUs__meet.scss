@@ -1,35 +1,100 @@
-.aboutUs__cert-imges{
+.aboutUs__cert-imges {
   position: static;
 }
 
-.aboutUs__meet-block{
+.aboutUs__meet-block {
   flex-wrap: wrap;
   row-gap: 60px;
 }
-.aboutUs__meet-desc{
+
+.aboutUs__meet-desc {
   text-align: center;
 }
-.aboutUs__meet-title{
+
+.aboutUs__meet-title {
   text-align: center;
   margin-bottom: 60px;
 }
-.aboutUs__meet-card{
+
+.aboutUs__meet-card {
   width: calc(25% - 22.5px);
 }
 
 
-.aboutUs__jobs{
+.aboutUs__jobs {
   padding-bottom: 80px;
   background: #F4F5F7;
-  &-block{
+
+  &-block {
     display: flex;
     flex-wrap: wrap;
     column-gap: 60px;
     row-gap: 20px;
   }
-  &-card{
+
+  &-card {
     width: calc(16.66666% - 50px);
     margin: 0 auto;
     cursor: pointer;
   }
+}
+
+
+@media (max-width: 768px) {
+  .aboutUs__meet-card {
+    width: calc(33.33333% - 20px);
+  }
+  .aboutUs__meet-block {
+    row-gap: 35px;
+  }
+}
+
+@media (max-width: 676px) {
+  .aboutUs__meet-card {
+    width: calc(50% - 15px);
+  }
+  .meet__desc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .aboutUs__meet-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .aboutUs__jobs-card {
+    width: calc(25% - 75px);
+    text-align: center;
+  }
+  
+}
+@media (max-width: 768px) {
+  .aboutUs__jobs-block {
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+  .aboutUs__jobs-card {
+    width: calc(33.3333% - 20px);
+  }
+}
+@media (max-width: 425px) {
+  .aboutUs__jobs-card {
+    width: calc(50% - 15px);
+  }
+}
+.meet__title {
+  font-size: 24px;
+  margin-bottom: 35px;
 }

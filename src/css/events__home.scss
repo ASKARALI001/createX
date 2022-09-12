@@ -1,14 +1,40 @@
-.events__home{
+.events__home {
   padding: 110px 0 120px;
   background: $peach;
-  &-desc{
+
+  &-desc {
     @include text(700, 16px, 150%, $oren);
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 12px;
   }
-  &-title{
-    @include text(900, 46px,130%, $black);
+
+  &-title {
+    @include text(900, 46px, 130%, $black);
     text-align: center;
   }
+}
+
+@media (max-width: 1200px) {
+  .events__home-title {
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 676px) {
+  .events__home-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }

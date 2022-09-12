@@ -80,4 +80,60 @@
 }
 
 
+@media (max-width: 1024px) {
+  .events__talk-text-subtitle {
+    font-size: 16px;
+  }
+  .events__talk-text-desc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .events__talk-row {
+    column-gap: 60px;
+  }
+  .events__talk-title {
+    font-size: 35px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .events__talk-right {
+    width: 73%;
+  }
+  .events__talk {
+    padding: 80px 0;
+    background: #FFFFFF;
+  }
+}
+@media (max-width: 676px) {
+  .events__talk-row {
+    flex-wrap: wrap;
+  }
+  .events__talk-left {
+    width: 100%;
+  }
+  .events__talk-title {
+     font-size: 28px;
+    margin-bottom: 30px;
+   }
+  .events__talk-right {
+    width: 100%;
+  }
+  .events__talk-right-subtitle {
+    font-size: 17px;
+  }
+  .events__talk-right-desc {
+    font-size: 12px;
+  }
+  .events__talk-right-link {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+
+  }
+
+
 

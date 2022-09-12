@@ -70,8 +70,14 @@ window.addEventListener("scroll", () => {
 } )
 
 
-
-
-
-
-
+$(document).ready(function () {
+    $('.studying__list-items').click(function () {
+        const value = $(this).attr('data-filter');
+        if(value == 'all'){;
+            $('.studying__card').show('1000')
+        }else{
+            $('.studying__card').not('.'+value).hide('1000');
+            $('.studying__card').filter('.'+value).show('1000');
+        }
+    })
+})

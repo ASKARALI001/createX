@@ -1,39 +1,95 @@
-.aboutUs__video{
+.aboutUs__video {
   background: #FFFFFF;
   padding-bottom: 180px;
-  &-block{
+
+  &-block {
     display: flex;
     column-gap: 135px;
   }
-  &-icon{
+
+  &-icon {
     display: flex;
     align-items: center;
     margin-bottom: 32px;
     column-gap: 16px;
   }
-  &-desc{
+
+  &-desc {
     @include text(700, 14px, 150%, $black);
 
   }
-  &-image{
+
+  &-image {
     width: 70%;
   }
-  &-info{
+
+  &-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 30%;
     row-gap: 20px;
   }
-  &-row{
+
+  &-row {
     display: flex;
     column-gap: 16px;
     align-items: center;
   }
-  &-num{
+
+  &-num {
     @include text(900, 48px, 130%, $oren);
   }
-  &-text{
+
+  &-text {
     @include text(700, 18px, 150%, $black);
   }
+}
+
+
+@media (max-width: 992px) {
+  .aboutUs__video-block {
+    column-gap: 60px;
+  }
+  .aboutUs__video-num {
+    font-size: 33px;
+  }
+  .aboutUs__video-text {
+    font-size: 14px;
+  }
+  .aboutUs__video {
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 676px) {
+  .aboutUs__video-block {
+    flex-wrap: wrap;
+  }
+  .aboutUs__video-image {
+    width: 100%;
+  }
+  .aboutUs__video-info {
+    width: 100%;
+    row-gap: 20px;
+  }
+  .aboutUs__video {
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) {
+
 }
